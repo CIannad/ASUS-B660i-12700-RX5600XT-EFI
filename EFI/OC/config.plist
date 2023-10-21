@@ -1159,7 +1159,7 @@
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
-                <integer>0</integer>
+                <integer>145</integer>
                 <key>HibernateMode</key>
                 <string>None</string>
                 <key>HibernateSkipsPicker</key>
@@ -1177,9 +1177,9 @@
                 <key>PickerAudioAssist</key>
                 <false/>
                 <key>PickerMode</key>
-                <string>Builtin</string>
+                <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>Acidanthera\HelloKitty</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
@@ -1206,7 +1206,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>0</integer>
             </dict>
             <key>Entries</key>
             <array>
@@ -1373,6 +1373,10 @@
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
+                    <key>revcpu</key>
+                    <integer>1</integer>
+                    <key>revcpuname</key>
+                    <string>12th Gen Intel(R) Core(TM) i7-12700</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -1385,7 +1389,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
+                    <string>keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1460,7 +1464,7 @@
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
-                <integer>0</integer>
+                <integer>3841</integer>
                 <key>ROM</key>
                 <data>cgj3gtsC</data>
                 <key>SpoofVendor</key>
@@ -1602,7 +1606,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -1746,7 +1750,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -1902,7 +1906,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -1931,6 +1935,18 @@
                     <false/>
                     <key>Path</key>
                     <string>ToggleSipEntry.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>ext4_x64.efi</string>
                 </dict>
             </array>
             <key>Input</key>
